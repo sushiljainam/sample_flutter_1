@@ -6,7 +6,10 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Route title - app', home: RandomWords());
+    return MaterialApp(
+        title: 'Route title - app',
+        theme: ThemeData(primaryColor: Colors.white),
+        home: RandomWords());
   }
 }
 
