@@ -23,7 +23,7 @@ class RandomWordsState extends State<RandomWords> {
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.list),
-            onPressed: _routeToSaved(),
+            onPressed: _routeToSaved,
           ),
         ],
       ),
