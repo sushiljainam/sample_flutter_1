@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Route title - app',
-        theme: ThemeData(primaryColor: Colors.white),
+        theme: ThemeData(primaryColor: Colors.pink),
         home: RandomWords());
   }
 }
